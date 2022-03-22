@@ -78,7 +78,7 @@ class ChainedTranslationManager
     public function getTranslationGroups(): array
     {
         $groups = [];
-        $langDirPath = app_path(config('laravel-chained-translator.path_to_lang'));
+        $langDirPath = base_path(config('laravel-chained-translator.path_to_lang'));
         $filesAndDirs = $this->files->allFiles($langDirPath);
         foreach ($filesAndDirs as $file) {
             /* @var SplFileInfo $file */
