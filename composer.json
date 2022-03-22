@@ -1,5 +1,5 @@
 {
-    "name": "statikbe/laravel-chained-translator",
+    "name": "stepovenko/laravel-chained-translator",
     "description": "The Laravel Chained Translator can combine several translators that can override each others translations.",
     "license": "MIT",
     "keywords": [
