@@ -18,4 +18,6 @@ return [
     | the directory does not exist yet.
     */
     'add_gitignore_to_custom_lang_directory' => true,
+
+    'path_to_lang' => 'resource/lang'
 ];
